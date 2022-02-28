@@ -1,10 +1,3 @@
-% Decentralized_Qlearning_Resource_Allocation_in_WNs
-
-%   Francesc Wilhelmi, Wireless Networking Research Group (WN-UPF), Universitat Pompeu Fabra
-%   Boris Bellalta, Wireless Networking Research Group (WN-UPF), Universitat Pompeu Fabra
-%   Cristina Cano, Wireless Networks Research Group (WINE-UOC), Universitat Oberta de Catalunya (UOC)
-%   Anders Jonsson, Artificial Intelligence and Machine Learning Research Group (AIML-UPF), Universitat Pompeu Fabra (UPF)
-
 function selected_action = selectActionQLearning(Qval, actions_ch, actions_cca, actions_tpc, e)
 % selectActionQLearning: returns the best possible action given the current state
 %   OUTPUT:
